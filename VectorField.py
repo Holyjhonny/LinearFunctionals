@@ -1,18 +1,20 @@
 import numpy as np
 import scipy as sp
 
-# A vector field is a set V that is closed
+# A vector space is a set V that is closed
 # under finite vector addition and
-# scalar multiplication, meaning: Let x,y,z belong to V and
+# scalar multiplication, meaning: Let X,Y,Z belong to V and
 # let r, s belong to R or C then the following must hold
 
-# x + y = y + x                  Commutativity
-# ( x + y ) + z = x + ( y + z )  Assosiativity
-# 0 + x = x + 0 = = x            Additivity identity
-# x + ( - x ) = 0                Existense of inverse additivity
-# r ( s x ) = ( r s ) x          Assosiativity for scalar
-# ( r + s ) x = r x + s x        Distribution of scalar sums
-#  
+# X + Y = Y + X                  CommutativitY
+# ( X + Y ) + Z = X + ( Y + Z )  AssosiativitY
+# 0 + X = X + 0 = = X            AdditivitY identitY
+# X + ( - X ) = 0                Existense of inverse additivitY
+# r ( s X ) = ( r s ) X          AssosiativitY for scalar
+# ( r + s ) X = r X + s X        Distribution of scalar sums
+#  r ( X + Y) = r x + r Y        Distribution of vector sums
+# I X = X                        Scalar multiplication identity
+
 
 
 
